@@ -3,6 +3,13 @@ import java.util.Stack;
 class basics{
 
     public static void main(String args[]){
+
+        // STACK
+        // LIFO- Last In First Out data Structure
+        //stores objects into a sort of "vertical tower"
+        //push() to add to the top of the stack
+        //pop() to remove the top object
+
         Stack<String> StackName = new Stack<>();
 
         // Adding element to the stack
@@ -10,9 +17,7 @@ class basics{
         StackName.push("item1");
         StackName.push("item2");
         System.out.println(StackName);
-
-        // LIFO- Last In First Out
-
+       
         StackName.pop();    //remove the top element item2
         System.out.println(StackName);
 
@@ -35,6 +40,9 @@ class basics{
         StackName.add("item4");
         System.out.println(StackName);
         System.out.println(StackName.search("item3")); //Search
+
+        int SizeofSatck= StackName.size(); // returns size of the stack
+        System.out.println(SizeofSatck);
 
 
     }
