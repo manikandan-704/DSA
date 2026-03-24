@@ -1,4 +1,3 @@
-package TwoPointer;
 
 class moveZeroEnd {
     static void moveZero(int[] arr) {
