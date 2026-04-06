@@ -1,1 +1,12 @@
 *.class
+# IntelliJ IDEA project files
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# If you want to share specific settings like Run Configurations,
+# uncomment the following lines and add .idea to your git:
+# !.idea/runConfigurations/
+# !.idea/copyright/
+# !.idea/scopes/
