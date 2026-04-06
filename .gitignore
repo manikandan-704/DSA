@@ -4,6 +4,7 @@
 *.iws
 *.iml
 *.ipr
+complie/
 
 # Build folders
 out/
