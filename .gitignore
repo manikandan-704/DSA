@@ -1,9 +1,24 @@
-*.class
+
 # IntelliJ IDEA project files
 .idea/
 *.iws
 *.iml
 *.ipr
+
+# Build folders
+out/
+target/
+build/
+
+# Compiled files
+*.class
+
+# Node (if any)
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
 
 # If you want to share specific settings like Run Configurations,
 # uncomment the following lines and add .idea to your git:
