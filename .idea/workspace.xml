@@ -2,23 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e75b41e9-3663-4c37-a72b-7df4632c4e1c" name="Changes" comment="DSA Practice">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/complie/production/DataStructure/Array/ConcatArray.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/complie/production/DataStructure/Array/Permutation.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/complie/production/DataStructure/Array/array2D.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/complie/production/DataStructure/Array/plusOne.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/complie/production/DataStructure/Array/removeDup.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/complie/production/DataStructure/Basics/Amstrong.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/complie/production/DataStructure/Basics/Fibonacci.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/complie/production/DataStructure/Basics/Palindrome.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/complie/production/DataStructure/Basics/Reverse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/complie/production/DataStructure/ConditionalLoops/Area.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/complie/production/DataStructure/ConditionalLoops/Perimeter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/complie/production/DataStructure/ConditionalLoops/SurfaceArea.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArrayList/arrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/arrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArrayList/arrayList1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/arrayList1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BinarySearch/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinarySearch/BinarySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BinarySearch/BinarySearch1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinarySearch/BinarySearch1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinearSearch/linearSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinearSearch/linearSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkedList/linkedlist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/linkedlist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Queue/queueBasics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Queue/queueBasics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stack/basics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stack/basics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TwoPointer/moveZeroEnd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TwoPointer/moveZeroEnd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TwoPointer/occurence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TwoPointer/occurence.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,12 +29,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/manikandan-704/DSA",
-    "accountId": "c65f4d37-25a1-4c8e-b9e9-abaf421dc022"
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "manikandan-704"
   }
 }]]></component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/manikandan-704/DSA&quot;,
+    &quot;accountId&quot;: &quot;c65f4d37-25a1-4c8e-b9e9-abaf421dc022&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6,
   &quot;fromUser&quot;: false
@@ -50,38 +50,45 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Amstrong.executor": "Run",
-    "Application.Area.executor": "Run",
-    "Application.ConcadArray.executor": "Debug",
-    "Application.Demo.executor": "Run",
-    "Application.Fibonacci.executor": "Run",
-    "Application.Palindrome.executor": "Run",
-    "Application.Perimeter.executor": "Run",
-    "Application.Permutation.executor": "Run",
-    "Application.Reverse.executor": "Run",
-    "Application.SurfaceArea.executor": "Run",
-    "Application.array2D.executor": "Run",
-    "Application.fibonacci.executor": "Run",
-    "Application.plusOne.executor": "Debug",
-    "Application.removeDup.executor": "Debug",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Manikandan/Desktop/DataStructure",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/Manikandan/Desktop/DataStructure/src/Main.java",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Amstrong.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Area.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ConcadArray.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Demo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Fibonacci.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Palindrome.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Perimeter.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Permutation.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Reverse.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SurfaceArea.executor&quot;: &quot;Run&quot;,
+    &quot;Application.array2D.executor&quot;: &quot;Run&quot;,
+    &quot;Application.fibonacci.executor&quot;: &quot;Run&quot;,
+    &quot;Application.plusOne.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.removeDup.executor&quot;: &quot;Debug&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Manikandan/Desktop/DataStructure&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Manikandan/Desktop/DataStructure/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Manikandan\Desktop\DataStructure\src\Sorting" />
+      <recent name="C:\Users\Manikandan\Desktop\DataStructure\src\Array" />
+      <recent name="C:\Users\Manikandan\Desktop\DataStructure\src\TwoPointer" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.removeDup">
     <configuration name="ConcatArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Array.ConcatArray" />
@@ -182,7 +189,7 @@
       <workItem from="1774859621008" duration="1646000" />
       <workItem from="1775275129941" duration="85000" />
       <workItem from="1775282268568" duration="3552000" />
-      <workItem from="1775451226816" duration="712000" />
+      <workItem from="1775451226816" duration="1527000" />
     </task>
     <task id="LOCAL-00001" summary="DSA Practice">
       <option name="closed" value="true" />
