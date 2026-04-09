@@ -2,8 +2,8 @@ package BinarySearch;
 
 public class targetElement {
     public static void main(String[] args) {
-        int[] arr = {1, 3, 5, 7, 9, 25, 33, 45};
-        int target = 44;
+        int[] arr = {-1,0,3,5,9,12};
+        int target = 9;
         System.out.print(findElement(arr, target));
     }
 
