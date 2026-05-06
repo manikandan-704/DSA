@@ -4,10 +4,10 @@ import java.util.Stack;
 
 class basics{
 
-    public static void main(String args[]){
+    public static void main(String[] args){
 
         // STACK
-        // LIFO- Last In First Out data Structure
+        // LIFO-Last In First Out data Structure
         //stores objects into a sort of "vertical tower"
         //push() to add to the top of the stack
         //pop() to remove the top object
@@ -31,8 +31,8 @@ class basics{
         StackName.pop();  //item 3 is poped
         StackName.pop();  //item 1 is poped
 
-        boolean CheckIsempty=StackName.isEmpty();  //isempty returns the boolean
-        System.out.println(CheckIsempty);
+        boolean CheckEmpty=StackName.isEmpty();  //isempty returns the boolean
+        System.out.println(CheckEmpty);
 
         //Search the index of the element in the stack
         
@@ -43,8 +43,8 @@ class basics{
         System.out.println(StackName);
         System.out.println(StackName.search("item3")); //Search
 
-        int SizeofSatck= StackName.size(); // returns size of the stack
-        System.out.println(SizeofSatck);
+        int SizeofStack= StackName.size(); // returns size of the stack
+        System.out.println(SizeofStack);
 
 
     }
