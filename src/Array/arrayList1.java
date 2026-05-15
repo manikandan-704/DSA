@@ -8,7 +8,7 @@ public class arrayList1 {
         Scanner sc=new Scanner(System.in);
         ArrayList<Integer> Numbers=new ArrayList<>();
 
-        System.out.println("Enter the number to add on ArrayList:");
+        System.out.println("Enter the size of ArrayList:");
         int size =sc.nextInt();
 
         for(int i=0 ; i<size ; i++){
