@@ -64,6 +64,14 @@ public class Student {
     public void setMark(int mark) {
         Mark = mark;
     }
+    public void setMarks(int mark) {
+        if(mark >= 0 && mark <= 100) {
+            this.Mark = mark;
+        }
+        else {
+            System.out.println("Invalid Marks");
+        }
+    }
 
     // Methode Overloading
     void display(String msg){
