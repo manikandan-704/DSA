@@ -5,7 +5,7 @@ import java.util.Stack;
 public class ValidPara {
     static void main(String[] args) {
     String s= "([])";
-    boolean result=valid(s);
+    boolean result=validParenthesis(s);
         System.out.println(result);
     }
     static Boolean valid(String s){
@@ -22,5 +22,32 @@ public class ValidPara {
             }
         }
         return stack.isEmpty();
+    }
+
+    static boolean validParenthesis(String s){
+        StringBuilder sb = new StringBuilder(s);
+
+        int i = 0;
+
+        while (i < sb.length() - 1) {
+            char a = sb.charAt(i);
+            char b = sb.charAt(i + 1);
+
+            if ((a == '(' && b == ')') ||
+                    (a == '{' && b == '}') ||
+                    (a == '[' && b == ']')) {
+
+                sb.delete(i, i + 2);
+
+                // Move back one position if possible
+                if (i > 0) {
+                    i--;
+                }
+            } else {
+                i++;
+            }
+        }
+
+        return sb.isEmpty();
     }
 }
